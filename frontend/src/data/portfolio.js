@@ -108,7 +108,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
   },
   {
-    title: "Social Business Mapping",
+    title: "Ant.Element",
     subtitle: "Social Entrepreneurship & Ecosystem Research",
     client: "Ant.Element (Netherlands)",
     year: "2025",
