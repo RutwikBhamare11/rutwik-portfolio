@@ -1,6 +1,7 @@
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/react";
 import { useLenis } from "@/hooks/useLenis";
 import { Navigation } from "@/components/portfolio/Navigation";
 import { Hero } from "@/components/portfolio/Hero";
@@ -49,6 +50,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PortfolioPage />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
