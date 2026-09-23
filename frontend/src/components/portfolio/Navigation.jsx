@@ -51,11 +51,10 @@ export const Navigation = () => {
             </a>
           ))}
           <a
-            href={`${API}/resume`}
+            href="/resume.pdf"
+            download="Rutwik_Bhamare_Resume.pdf"
             data-testid={NAV.resumeBtn}
             className="btn-pill accent"
-            target="_blank"
-            rel="noreferrer"
           >
             Resume <ArrowDownToLine size={14} />
           </a>
@@ -85,11 +84,10 @@ export const Navigation = () => {
             </a>
           ))}
           <a
-            href={`${API}/resume`}
+            href="/resume.pdf"
+            download="Rutwik_Bhamare_Resume.pdf"
             data-testid={`${NAV.resumeBtn}-mobile`}
             className="btn-pill accent w-fit"
-            target="_blank"
-            rel="noreferrer"
           >
             Resume <ArrowDownToLine size={14} />
           </a>

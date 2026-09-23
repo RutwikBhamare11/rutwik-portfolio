@@ -90,10 +90,9 @@ export const Hero = () => {
               Let’s talk <ArrowDown size={14} />
             </a>
             <a
-              href={`${API}/resume`}
+              href="/resume.pdf"
+              download="Rutwik_Bhamare_Resume.pdf"
               data-testid={HERO.ctaResume}
-              target="_blank"
-              rel="noreferrer"
               className="btn-pill accent"
             >
               Resume <ArrowDownToLine size={14} />
