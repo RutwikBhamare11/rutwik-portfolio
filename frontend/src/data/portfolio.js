@@ -1,18 +1,18 @@
 export const profile = {
   name: "Rutwik Bhamare",
   initials: "RB",
-  title: "Brand & Marketing Creative",
-  locations: ["Marseille", "Paris"],
+  title: "Marketing & Brand Strategy",
+  locations: ["Paris", "Marseille"],
   email: "rutwikbhamare321@gmail.com",
   phone: "+33 7 80 76 54 95",
   linkedin: "https://www.linkedin.com/in/rutwik-bhamare/",
   instagram: "https://www.instagram.com/rutwik_bhamare/",
   tagline:
-    "I build brands that feel alive — between strategy, storytelling, and the spaces in-between.",
+    "Turning insights into meaningful brands, campaigns, and customer experiences.",
   about: [
-    "Brand & marketing creative finishing my Master's in Brand & Creativity at Kedge Business School, currently shaping digital narratives for Wear The Future in Paris.",
-    "I move between performance and poetry — campaigns, content, web, and email — translating creative intuition into measurable results across markets from Paris to Los Angeles.",
-    "Multicultural by default. Detail obsessed. Always chasing the next idea worth telling.",
+    "Master in Management (MIM-PGE) candidate at KEDGE Business School with hands-on experience across digital marketing, product marketing, brand communication, market research, and campaign coordination.",
+    "Experienced in supporting international projects across Paris and Los Angeles, including paid media, SEO, content, event execution, and KPI reporting.",
+    "I combine analytical thinking with creativity to understand audiences, strengthen brand communication, and turn ideas into actionable marketing initiatives.",
   ],
 };
 
@@ -22,13 +22,13 @@ export const experiences = [
     role: "Digital Marketing & Media Intern",
     company: "Wear The Future",
     location: "Paris, France",
-    period: "2025 — Present",
+    period: "Mar 2026 — Sep 2026",
     points: [
-      "Plan and ship digital campaigns across social, email, and web.",
-      "Run Mailchimp end-to-end: segmentation, HTML templates, KPI tracking.",
-      "Manage Instagram & LinkedIn — planning, content, community.",
-      "Coordinate brand consistency between Paris ↔ Los Angeles offices.",
-      "Support SEM/paid media (Google Ads, Meta Ads) inside integrated campaigns.",
+      "Organized and led execution of “French in Fashion: A Summer Solstice Celebration,” coordinating designers, vendors and outreach partners for a brand event in Los Angeles.",
+      "Coordinated multi-channel campaign execution across social, email and web between Paris and Los Angeles teams, including Google Ads and Meta Ads paid media.",
+      "Tracked campaign KPIs and delivered monthly performance reports to stakeholders, informing content and budget decisions.",
+      "Owned SEO strategy and on-page optimization for website product listings, improving site structure and discoverability.",
+      "Conducted competitive and market research to shape content strategy and brand positioning.",
     ],
   },
   {
@@ -38,22 +38,20 @@ export const experiences = [
     location: "Pune, India",
     period: "Jun 2023 — May 2024",
     points: [
-      "Owned product catalogs and brochures with technical specifications.",
-      "Led market & competitor analysis informing pricing and positioning.",
-      "Managed B2B listings (TradeIndia, IndiaMART) for lead generation.",
-      "Supported launch of multiple new SKUs with full marketing kit.",
+      "Managed digital catalog and inventory listings for 100+ SKUs across B2B platforms including TradeIndia and IndiaMART.",
+      "Optimized product descriptions for SEO and supported new product launches with market-timed digital content.",
+      "Conducted market and competitor analysis to inform product positioning and pricing strategy.",
     ],
   },
   {
     key: "rahi-intern",
-    role: "Marketing Intern",
+    role: "Marketing & Digital Communication Intern",
     company: "Rahi Industries Pvt. Ltd.",
     location: "Pune, India",
     period: "Nov 2022 — May 2023",
     points: [
-      "Market research, competitor study, and customer feedback loops.",
-      "Designed product catalogs and refreshed online B2B presence.",
-      "Field marketing support at trade exhibitions.",
+      "Supported market research, competitor analysis and customer feedback collection to shape digital content and catalog updates.",
+      "Contributed to B2B marketing content for dealer promotions and trade exhibitions.",
     ],
   },
 ];
@@ -108,7 +106,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
   },
   {
-    title: "Social Business Mapping",
+    title: "Ant.Element",
     subtitle: "Social Entrepreneurship & Ecosystem Research",
     client: "Ant.Element (Netherlands)",
     year: "2025",
@@ -126,36 +124,42 @@ export const projects = [
 ];
 
 export const skills = [
-  "Performance Marketing",
-  "SEO & Web",
-  "Email & CRM",
+  "Digital Marketing",
   "Brand Strategy",
-  "Content & Storytelling",
+  "Product Marketing",
+  "Content Strategy",
+  "Market Research",
+  "Competitor Analysis",
+  "SEO & SEM",
+  "Campaign Management",
   "Social Media",
-  "Adobe Creative Suite",
-  "Canva Pro",
-  "Mailchimp",
+  "Email & CRM",
   "Google Ads",
   "Meta Ads",
   "Google Analytics",
+  "Mailchimp",
   "Tableau",
   "SQL",
+  "Excel",
   "Shopify",
   "WordPress",
+  "Canva Pro",
+  "Adobe Photoshop",
+  "Adobe Illustrator",
 ];
 
 export const education = [
   {
-    school: "Kedge Business School",
-    degree: "MIM-PGE · Master in Management — Brand & Creativity",
+    school: "KEDGE Business School",
+    degree: "MIM-PGE · Master in Management — International Business",
     location: "Marseille, France",
-    period: "Sep 2024 — 2026",
+    period: "2024 — 2026",
   },
   {
     school: "MIT Arts, Commerce and Science College",
     degree: "BBA · Marketing Management",
     location: "Pune, India",
-    period: "May 2020 — May 2023",
+    period: "2020 — 2023",
   },
 ];
 
