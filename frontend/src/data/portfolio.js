@@ -70,8 +70,7 @@ export const projects = [
       "Exploration of small-donor motivations, barriers and engagement opportunities.",
       "Social media and storytelling recommendations designed to strengthen digital engagement.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=85",
+    image:"/projects/tara-ocean.jpg",
   },
   {
     title: "Shein",
@@ -86,8 +85,7 @@ export const projects = [
       "Examined competitive positioning and digital-first consumer behavior.",
       "Connected market dynamics with international growth and brand strategy considerations.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=85",
+    image:"/projects/shein.jpg",
   },
   {
     title: "Samsung APAC",
@@ -102,8 +100,7 @@ export const projects = [
       "Analyzed potential impact on brand perception and stakeholder relationships.",
       "Developed strategic recommendations for reputation and communication management.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
+    image:"/projects/samsung-apac.jpg",
   },
   {
     title: "Ant.Element",
@@ -118,8 +115,7 @@ export const projects = [
       "Structured research around social entrepreneurship and sustainability themes.",
       "Synthesized findings into insights and potential partnership opportunities.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85",
+    image:"/projects/ant-element.jpg",
   },
 ];
 
