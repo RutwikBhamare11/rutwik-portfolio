@@ -115,7 +115,7 @@ export const projects = [
       "Structured research around social entrepreneurship and sustainability themes.",
       "Synthesized findings into insights and potential partnership opportunities.",
     ],
-    image:"/projects/ant-element.jpg",
+    image: "/projects/ant-element.jpg",
   },
 ];
 
