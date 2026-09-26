@@ -12,6 +12,11 @@ import { EducationLanguages } from "@/components/portfolio/EducationLanguages";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 
+import TaraOcean from "@/components/CaseStudies/TaraOcean";
+import Shein from "@/components/CaseStudies/Shein";
+import Samsung from "@/components/CaseStudies/Samsung";
+import AntElement from "@/components/CaseStudies/AntElement";
+
 const PortfolioPage = () => {
   useLenis();
   return (
@@ -46,9 +51,29 @@ const PortfolioPage = () => {
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<PortfolioPage />} />
-      </Routes>
+    <Routes>
+  <Route path="/" element={<PortfolioPage />} />
+
+  <Route
+    path="/projects/tara-ocean-foundation"
+    element={<TaraOcean />}
+  />
+
+  <Route
+    path="/projects/shein"
+    element={<Shein />}
+  />
+
+  <Route
+    path="/projects/samsung-apac"
+    element={<Samsung />}
+  />
+
+  <Route
+    path="/projects/ant-element"
+    element={<AntElement />}
+  />
+</Routes>
     </BrowserRouter>
   );
 }

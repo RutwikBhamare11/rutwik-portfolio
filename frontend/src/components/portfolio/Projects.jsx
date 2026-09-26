@@ -12,7 +12,7 @@ export const Projects = () => {
     >
       <div className="grid grid-cols-12 gap-8 mb-14">
         <div className="col-span-12 md:col-span-3">
-          <p className="font-mono-label"><span className="accent-bar" />04 — Selected Projects</p>
+          <p className="font-mono-label"><span className="accent-bar" />04 — Academic Projects</p>
         </div>
         <h2 className="col-span-12 md:col-span-9 font-serif-display text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
           Ideas, strategy &amp; <span className="italic" style={{ color: "var(--accent)" }}>execution</span>.
@@ -75,13 +75,29 @@ export const Projects = () => {
                 ))}
               </ul>
 
-              <a
-                href="#contact"
-                className="btn-pill mt-10 self-start"
-                data-testid={index === 0 ? "project-card-cta" : undefined}
-              >
-                Discuss this work <ArrowUpRight size={14} />
-              </a>
+            <a
+  href={
+    project.title === "Tara Ocean Foundation"
+      ? "/projects/tara-ocean-foundation"
+      : project.title === "Shein"
+        ? "/projects/shein"
+        : project.title === "Samsung APAC"
+          ? "/projects/samsung-apac"
+          : project.title === "Ant.Element"
+            ? "/projects/ant-element"
+            : "#contact"
+  }
+  className="btn-pill mt-10 self-start"
+  data-testid={index === 0 ? "project-card-cta" : undefined}
+>
+  {project.title === "Tara Ocean Foundation" ||
+  project.title === "Shein" ||
+  project.title === "Samsung APAC" ||
+  project.title === "Ant.Element"
+    ? "View Case Study"
+    : "Discuss this work"}
+  <ArrowUpRight size={14} />
+</a>
             </div>
           </motion.article>
         ))}
