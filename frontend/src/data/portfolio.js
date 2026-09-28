@@ -56,6 +56,25 @@ export const experiences = [
   },
 ];
 
+export const professionalWork = [
+  {
+    key: "wear-the-future",
+    title: "Wear The Future LA",
+    subtitle: "Digital Marketing · Brand Communication · Campaign Execution",
+    description:
+      "Digital marketing and brand communication work spanning campaigns, paid media, SEO, content, event execution and performance reporting.",
+    path: "/work/wear-the-future",
+  },
+  {
+    key: "rahi-industries",
+    title: "Rahi Industries",
+    subtitle: "Product Marketing · Digital Communication · B2B Marketing",
+    description:
+      "Product marketing and digital communication work across 100+ SKUs, B2B platforms, dealer marketing, product content and marketing collateral.",
+    path: "/work/rahi-industries",
+  },
+];
+
 export const projects = [
   {
     title: "Tara Ocean Foundation",
@@ -160,8 +179,8 @@ export const education = [
 ];
 
 export const languages = [
-  { name: "English", level: "Native" },
+  { name: "English", level: "Fluent" },
+  { name: "French", level: "Beginner" },
   { name: "Marathi", level: "Native" },
-  { name: "Hindi", level: "Full Professional" },
-  { name: "French", level: "A2" },
+  { name: "Hindi", level: "Fluent" },
 ];

@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=DM+Sans:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Noto+Sans+Devanagari:wght@500;600&family=Noto+Serif+Devanagari:wght@500;600&family=Noto+Serif+SC:wght@500;600&family=Playfair+Display:wght@500;600&display=swap');
+
+.font-russian {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-french {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-spanish {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-english {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.font-german {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.font-hindi {
+  font-family: 'Noto Serif Devanagari', serif;
+}
+
+.font-marathi {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.font-chinese {
+  font-family: 'Noto Serif SC', serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -80,3 +80,14 @@ memory/test_credentials.md
 
 # Mobile development
 android-sdk/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Emergent temporary files
+.emergent/
+
+# Personal resume source file
+Rutwik_Bhamare_Resume.docx

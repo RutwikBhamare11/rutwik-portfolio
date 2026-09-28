@@ -16,6 +16,8 @@ import TaraOcean from "@/components/CaseStudies/TaraOcean";
 import Shein from "@/components/CaseStudies/Shein";
 import Samsung from "@/components/CaseStudies/Samsung";
 import AntElement from "@/components/CaseStudies/AntElement";
+import WearTheFuture from "@/components/CaseStudies/WearTheFuture";
+import RahiIndustries from "@/components/Work/RahiIndustries";
 
 const PortfolioPage = () => {
   useLenis();
@@ -73,6 +75,16 @@ function App() {
     path="/projects/ant-element"
     element={<AntElement />}
   />
+
+  <Route
+    path="/work/wear-the-future"
+    element={<WearTheFuture />}
+  />
+
+  <Route
+    path="/work/rahi-industries"
+    element={<RahiIndustries />}
+ />
 </Routes>
     </BrowserRouter>
   );
