@@ -181,7 +181,7 @@ export const Hero = () => {
             MAIN HEADLINE
         ====================================================== */}
 
-        <div className="relative z-40 flex flex-col items-center pt-[15vh] text-center">
+        <div className="relative z-40 flex flex-col items-center pt-[6vh] text-center">
 
           <motion.h1
             data-testid={HERO.name}
@@ -357,10 +357,10 @@ export const Hero = () => {
     duration: 0.7,
     delay: 1.1,
   }}
-  className="absolute z-50 flex items-center justify-center gap-3"
+  className="absolute z-[60] flex items-center justify-center gap-3"
   style={{
     left: "50%",
-    bottom: "13%",
+    bottom: "21%",
     x: "-50%",
   }}
 >
